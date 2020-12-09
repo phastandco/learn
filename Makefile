@@ -3,3 +3,6 @@ vim: vim.html
 
 makefile: makefile.html
 	reload -bs makefile.html
+
+learn:
+	reload -bd src

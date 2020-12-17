@@ -1,2 +1,2 @@
 learn:
-	reload -bd src/index.html
+	reload -bd ./src

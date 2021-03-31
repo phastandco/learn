@@ -1,2 +1,2 @@
-make :
+learn :
 	reload -bd ./src

@@ -2,14 +2,15 @@
   "name": "learn",
   "version": "1.0.0",
   "private": "true",
-  
-"repository": {
-  "type": "git",
-  "url" : "https://github.com/SkillupandNIK/learn.git"
-},
-
-"dependencies": {},
-"devDependencies": {
-  "reload": "^3.1.1"
+  "scripts": {
+    "start" : "reload -bd ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkillupandNIK/learn.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "reload": "^3.1.1"
   }
 }

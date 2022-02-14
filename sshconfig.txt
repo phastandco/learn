@@ -1,0 +1,33 @@
+Sécuriser son serveur ssh 
+Sécuriser son serveur ssh 
+Hugo
+Sécuriser son serveur ssh 
+17:27 11/02
+
+When modifying /etc/sshd/config
+sudo systemctl restart sshd
+
+Try to connect to serv with 
+ssh -1 user@adresse_ip -p num_de_port
+
+w or who command for checking the connections to the ssh server
+
+disable password connection and add ssh keys via ssh-keygen command
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@host
+Then authentification to copy in the know hosts dir on the ssh serv
+
+or use ssh-pass instead but weaker
+
+No root acces
+PermitRootLogin 'no' of 'without-password'
+
+No password access to the server ?
+DL and UP stream limit ?
+Multi-factor auth ?
+
+Good user and group management :
+Important files
+/etc/passwd
+/etc/group
+
+adduser command

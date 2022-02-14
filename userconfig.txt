@@ -1,0 +1,6 @@
+User management under linux
+
+2 important files :
+
+/etc/passwd => info about users and passwords
+/etc/group => info about groups and their permissions

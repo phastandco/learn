@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.10.6 <<>> ssh.opdl.tech
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49620
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ssh.opdl.tech.			IN	A
+
+;; ANSWER SECTION:
+ssh.opdl.tech.		28064	IN	A	82.66.136.243
+
+;; Query time: 117 msec
+;; SERVER: 192.168.0.254#53(192.168.0.254)
+;; WHEN: Fri Feb 25 16:34:06 CET 2022
+;; MSG SIZE  rcvd: 58
+

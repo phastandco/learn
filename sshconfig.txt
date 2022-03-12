@@ -6,6 +6,8 @@ Sécuriser son serveur ssh
 
 When modifying /etc/sshd/config
 sudo systemctl restart sshd
+or
+sudo service ssh restart
 
 Try to connect to serv with 
 ssh -1 user@adresse_ip -p num_de_port
@@ -31,3 +33,6 @@ Important files
 /etc/group
 
 adduser command
+
+chmod 700 ~/.ssh/
+chmod 600 ~/.ssh/authorized_keys
